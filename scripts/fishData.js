@@ -46,7 +46,7 @@ const database = {
             length: 5, 
             location: "river", 
             diet: "Herbivore", 
-            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXNhBtlUj6K24HjTpt6Vs6lDh0ITht8auF9DIy_WvQA&s"
+            image: "https://www.foodandwine.com/thmb/3nq7b6MFdYPRUi5r76ujXJZLe3k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Salmon-Flooding-Streets-FT-BLOG1021-7414725776624edd93ae2d96649db398.jpg"
         },
         {
             name: "Rocky",

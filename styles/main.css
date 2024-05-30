@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(90deg, rgba(87,77,242,1) 0%, rgba(173,173,255,1) 47%, rgba(0,212,255,1) 100%);
+
+}
+
+header {
+    text-align: center;
+}
+
+.fish, .location {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px turquoise;
+    margin: 10px;
+    background-color: rgba(173,173,255,0.2);
+}
+
+.fish_image {
+    width: 12rem;
+    height: 8rem;
+    margin-right: 10px;
+}
+
+#fishList {
+    box-shadow: 4px aquamarine;
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
