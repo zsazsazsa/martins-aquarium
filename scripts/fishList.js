@@ -1,9 +1,9 @@
-import { getData } from './fishData.js'
+import { getFish } from './fishData.js'
 
 export const fishList = () => {
     // Generate an HTML representation of each fish
     let fishHTML = ""
-    const database = getData()
+    const database = getFish()
     for( const fish of database ) {
         fishHTML += `
             <article class="fish">
