@@ -57,8 +57,48 @@ const database = {
             image: "https://www.montereybayaquarium.org/globalassets/mba/images/animals/fishes/rockfish-rw17-091-2.jpg"
         }
     ],
+    tips: [
+        {
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        },
+        {
+            topic: "Feeding",
+            text: "Don't overfeed your fish!"
+        }, 
+        {
+            topic: "Playing",
+            text: "Remember to take the time to play with your fish friends!"
+        }
+    ],
+    locations: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+         },
+         {
+            name: "Carribean",
+            country: "North America",
+            description: "The Carribean is a subregion of the Americas that includes the Caribbean Sea and its islands, some of which are surrounded by the Caribbean Sea and some of which border both the Caribbean Sea and the North Atlantic Ocean"
+         },
+         {
+            name: "River",
+            country: "Found Worldwide",
+            description: "A river is a natural flowing watercourse, usually a freshwater stream, flowing on the Earth's land surface or inside caves towards another waterbody at a lower elevation, such as an ocean, sea, bay, lake, wetland, or another river."
+         }
+    ]
 }
 
-export const getData = () => {
+export const getFish = () => {
     return database.fish.map((fish) => ({...fish}))
 }
+
+export const getTips = () => {
+    return database.tips.map((tips) => ({...tips}))
+}
+
+export const getLocations = () => {
+    return database.locations.map((location) => ({...location}))
+}
+
